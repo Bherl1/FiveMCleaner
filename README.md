@@ -1,35 +1,35 @@
 # FiveM Cleaner
 
 ![FiveM Cleaner](https://img.shields.io/badge/Project%20Status-Active-brightgreen)  
-**FiveM Cleaner** est un outil léger et facile à utiliser conçu pour nettoyer et optimiser les fichiers de cache de **FiveM**. Que vous soyez un joueur régulier ou un administrateur de serveur, cet outil simplifie le processus de nettoyage des fichiers inutiles et d'optimisation des performances pour une expérience de jeu plus fluide.
+**FiveM Cleaner** is a lightweight and easy-to-use tool designed to clean and optimize **FiveM** cache files. Whether you're a regular player or a server administrator, this tool simplifies the process of cleaning unnecessary files and optimizing performance for a smoother gaming experience.
 
 ---
 
 ## 🚀 **Features**
 
-- **Nettoyage du cache de FiveM** : Supprimez les fichiers temporaires et inutiles qui peuvent ralentir votre système.
-- **Optimisation des performances** : Libérez de l'espace et améliorez la vitesse de votre jeu en supprimant les fichiers obsolètes.
-- **Interface conviviale** : Une interface simple et intuitive pour une expérience sans tracas.
-- **Légèreté** : L'outil est optimisé pour une utilisation minimale des ressources tout en maintenant des performances élevées.
+- **FiveM Cache Cleaning**: Remove temporary and unnecessary files that may slow down your system.
+- **Performance Optimization**: Free up space and improve game speed by removing outdated files.
+- **User-Friendly Interface**: A simple and intuitive interface for a hassle-free experience.
+- **Lightweight**: The tool is optimized for minimal resource usage while maintaining high performance.
 
 ---
 
 ## 📸 **Screenshots**
 
-Voici quelques captures d'écran de l'application en action :
+Here are a few screenshots of the app in action:
 
-![Interface](./images/1.png)
+![Interface](./images/screenshot1.png)
 
 ---
 
-## 🛠️ **Prérequis**
+## 🛠️ **Prerequisites**
 
-Avant de pouvoir exécuter **FiveM Cleaner** localement, vous devrez avoir installé les éléments suivants :
+Before you can run **FiveM Cleaner** locally, you'll need to have the following installed:
 
-- **[Node.js](https://nodejs.org/)** (version LTS recommandée)
-- **npm** (vient préinstallé avec Node.js)
+- **[Node.js](https://nodejs.org/)** (LTS version recommended)
+- **npm** (comes pre-installed with Node.js)
 
-Vérifiez si Node.js et npm sont installés en exécutant les commandes suivantes dans votre terminal :
+Check if Node.js and npm are installed by running the following commands in your terminal:
 
 ```bash
 node -v
@@ -40,112 +40,112 @@ npm -v
 
 ## 📥 **Installation**
 
-### Clonez le dépôt
+### Clone the Repository
 
-Commencez par cloner ce dépôt sur votre machine locale :
+First, clone this repository to your local machine:
 
 ```bash
 git clone https://github.com/Bherl1/FiveMCleaner.git
 cd FiveMCleaner
 ```
 
-### Installez les dépendances
+### Install Dependencies
 
-Naviguez dans le dossier du projet et installez toutes les dépendances nécessaires :
+Navigate to the project folder and install all required dependencies:
 
 ```bash
 npm install
 ```
 
-### Exécution de l'application
+### Running the Application
 
-Pour exécuter l'application en mode développement, utilisez la commande suivante :
+To run the app in development mode, use the following command:
 
 ```bash
 npm run start
 ```
 
-Cela ouvrira l'application avec l'interface de nettoyage de cache.
+This will open the app with the cache cleaning interface.
 
 ---
 
-## ⚙️ **Exécutable précompilé (Windows)**
+## ⚙️ **Precompiled Executable (Windows)**
 
-Pour les utilisateurs Windows, vous pouvez télécharger un fichier `.exe` précompilé à partir de la section **Releases** :
+For Windows users, you can download a precompiled `.exe` file from the **Releases** section:
 
-1. Allez sur la page [Releases](https://github.com/Bherl1/FiveMCleaner/releases).
-2. Téléchargez le fichier `.exe`.
-3. Double-cliquez sur le fichier `.exe` pour lancer l'application.
+1. Go to the [Releases](https://github.com/Bherl1/FiveMCleaner/releases).
+2. Download the `.exe` file.
+3. Double-click the `.exe` to launch the app.
 
-Cette version est prête à l'emploi et ne nécessite pas de configuration de Node.js ou npm.
-
----
-
-## 📝 **Utilisation**
-
-Une fois l'application lancée, vous verrez une interface simple et intuitive vous permettant de :
-
-- **Nettoyer le cache** : Supprimez les fichiers temporaires et les caches inutiles associés à votre installation FiveM.
-- **Optimiser les performances** : Libérez de l'espace disque et améliorez les performances en supprimant les fichiers obsolètes.
-
-Suivez les instructions à l'écran pour commencer et consultez l'aide intégrée pour plus de détails.
+This version is ready-to-use and doesn't require Node.js or npm setup.
 
 ---
 
-## 🤝 **Contribuer**
+## 📝 **Usage**
 
-Nous accueillons les contributions de la communauté ! Si vous souhaitez contribuer à **FiveM Cleaner**, veuillez suivre ces étapes :
+Once the application is running, you will be presented with a simple and intuitive interface that allows you to:
 
-1. Forkez le dépôt.
-2. Créez une nouvelle branche (`git checkout -b feature/your-feature`).
-3. Apportez vos modifications et validez-les (`git commit -am 'Ajout d'une nouvelle fonctionnalité'`).
-4. Poussez vers votre fork (`git push origin feature/your-feature`).
-5. Ouvrez une pull request sur GitHub.
+- **Clean Cache**: Remove temporary files and cache associated with your FiveM installation.
+- **Optimize Performance**: Free up disk space and improve performance by removing outdated files.
 
-Nous vous demandons de respecter le style de code existant et de vous assurer que toutes les tests sont passés.
+Follow the on-screen instructions to get started and refer to the in-app help for more details.
 
 ---
 
-## 💡 **Idées d'amélioration**
+## 🤝 **Contributing**
 
-Voici quelques idées pour les futures améliorations que vous pourriez vouloir contribuer :
+We welcome contributions from the community! If you'd like to contribute to **FiveM Cleaner**, please follow these steps:
 
-- **Support multi-plateformes** : Ajouter la prise en charge de macOS et Linux en compilant à partir de la source.
-- **Interface graphique améliorée** : Ajouter plus de fonctionnalités interactives pour les utilisateurs avancés.
+1. Fork the repository.
+2. Create a new branch (`git checkout -b feature/your-feature`).
+3. Make your changes and commit them (`git commit -am 'Add new feature'`).
+4. Push to your fork (`git push origin feature/your-feature`).
+5. Open a pull request on GitHub.
 
----
-
-## 📄 **Licence**
-
-Ce projet est sous licence **MIT** - consultez le fichier [LICENSE](https://github.com/Bherl1/FiveMCleaner/blob/main/LICENSE) pour plus de détails.
-
----
-
-## 🔗 **Liens**
-
-- **Discord** : [Rejoignez notre communauté](https://discord.gg/7wVU2jnjey)
-- **Suivi des bugs** : [Signalez un problème](https://github.com/Bherl1/FiveMCleaner/issues)
+We kindly ask that you ensure your code follows the existing style and passes all tests.
 
 ---
 
-## 🙏 **Remerciements**
+## 💡 **Ideas for Improvement**
 
-Un grand merci aux bibliothèques et outils suivants qui ont rendu ce projet possible :
+Here are a few ideas for future improvements that you might want to consider contributing to:
+
+- **Multi-Platform Support**: Add support for macOS and Linux by building from source.
+- **Enhanced GUI**: Add more interactive features for advanced users.
+
+---
+
+## 📄 **License**
+
+This project is licensed under the **MIT License** - see the [LICENSE](https://github.com/Bherl1/FiveMCleaner/blob/main/LICENSE) file for details.
+
+---
+
+## 🔗 **Links**
+
+- **Discord**: [Join our community](https://discord.gg/7wVU2jnjey)
+- **Bug Tracker**: [Report an issue](https://github.com/Bherl1/FiveMCleaner/issues)
+
+---
+
+## 🙏 **Acknowledgments**
+
+A big thank you to the following libraries and tools that made this project possible:
 
 - [Node.js](https://nodejs.org/)
 - [npm](https://npmjs.com/)
 
-Et bien sûr, **merci** pour votre intérêt pour **FiveM Cleaner** ! Nous espérons que cet outil améliorera votre expérience de jeu.
+And of course, **thank you** for your interest in **FiveM Cleaner**! We hope this tool improves your gaming experience.
 
 ---
 
-### 🛠️ **Technologies utilisées**
+### 🛠️ **Technologies Used**
 
-- **Frontend** : Node.js
-- **Gestion de paquets** : npm
+- **Frontend**: Node.js
+- **Package Management**: npm
 
 ---
 
-### 🏆 **Support et Feedback**
+### 🏆 **Support and Feedback**
 
-Si vous rencontrez des problèmes ou avez des suggestions d'amélioration, n'hésitez pas à ouvrir une issue dans la section [Issues](https://github.com/Bherl1/FiveMCleaner/issues), ou à nous contacter directement.
+If you encounter any issues or have suggestions for improvement, feel free to open an issue in the [Issues](https://github.com/Bherl1/FiveMCleaner/issues) section, or contact us directly.
