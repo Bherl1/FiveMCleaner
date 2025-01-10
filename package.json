@@ -1,0 +1,14 @@
+{
+    "name": "fivem-cache-cleaner",
+    "version": "1.0.0",
+    "description": "A tool to clear FiveM cache and optimize system performance.",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "author": "ASTREN",
+    "license": "MIT",
+    "dependencies": {
+        "colors": "^1.4.0"
+    }
+}
